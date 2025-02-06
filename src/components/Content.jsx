@@ -11,10 +11,11 @@ export const Content = () => {
   };
 
   return (
-    <div>
+    <div style={{backgroundColor:"GrayText",color:"blue",textAlign:"center"}}>
+      {/* <div style="color:10px;"></div> */}
       <h1>CONTENT</h1>
       {name}
-      <h1>Name = {name}</h1>
+      <h1 style={{color:"red"}}>Name = {name}</h1>
       <h2>Age = {age}</h2>
       <h2>isActive = {isActive}</h2>
       <h2>active = {isActive == true ? "Active" : "Not Active"}</h2>

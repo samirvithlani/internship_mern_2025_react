@@ -15,3 +15,13 @@ ES7+
 
 to create components
 rafc
+
+
+task:06/02/2025
+
+header footer components
+
+Heder: right side nav bar
+about us page: left side about us right side image
+
+
