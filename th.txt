@@ -1,0 +1,17 @@
+components:
+
+class based components
+function based components : 16.x hooks
+
+
+all components name starts With cap
+Home 
+home
+
+goto marketplace
+searc react
+
+ES7+
+
+to create components
+rafc
