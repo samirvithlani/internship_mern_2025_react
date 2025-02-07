@@ -25,3 +25,21 @@ Heder: right side nav bar
 about us page: left side about us right side image
 
 
+
+------------------------------------------------------------
+create json object of city:
+id,cityname,populat,AQI
+
+200000 > populat : red
+AQI > 300  RED , 200< green
+
+-----------------------------------------------------------
+create json object of sales data
+id,day,sales,discount,profit
+
+product id -->50>% green
+
+
+
+
+
