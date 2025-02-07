@@ -5,6 +5,8 @@ import viteLogo from "/vite.svg";
 import {Header} from "./components/Header"
 import Footer from "./components/Footer";
 import { Content } from "./components/Content";
+import { ArrayDemo1 } from "./components/ArrayDemo1";
+import { ArrayDemo2 } from "./components/ArrayDemo2";
 
 function App() {
   //js
@@ -13,9 +15,11 @@ function App() {
 
   return (
     <div>
-      <Header></Header>
-      <Content></Content>
-      <Footer></Footer>
+      {/* <Header></Header> */}
+      {/* <Content></Content> */}
+      {/* <ArrayDemo1></ArrayDemo1> */}
+      <ArrayDemo2></ArrayDemo2>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
