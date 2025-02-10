@@ -54,6 +54,16 @@ class based life cycle..
 useState: 
 
 
+task:
+
+3 copmpoonent:
+
+min 5 input
+
+ticket book
+user aadmin
+blood donation
+
 
 
 

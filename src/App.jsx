@@ -11,6 +11,7 @@ import { ArrayDemo3 } from "./components/ArrayDemo3";
 import { ArrayDemo4 } from "./components/ArrayDemo4";
 import { UseStateDemo } from "./components/UseStateDemo";
 import { UseStateDemo2 } from "./components/UseStateDemo2";
+import { InputDemo1 } from "./components/InputDemo1";
 
 function App() {
   //js
@@ -20,7 +21,8 @@ function App() {
   return (
     <div>
       {/* <UseStateDemo></UseStateDemo> */}
-      <UseStateDemo2></UseStateDemo2>
+      {/* <UseStateDemo2></UseStateDemo2> */}
+      <InputDemo1></InputDemo1>
       {/* <Header></Header> */}
       {/* <Content></Content> */}
       {/* <ArrayDemo1></ArrayDemo1> */}
