@@ -65,5 +65,13 @@ user aadmin
 blood donation
 
 
+react routing...
 
+react-router-dom
+npm install react-router-dom
 
+Navbar.jsx -> boot...
+
+<BrowserRouter> :
+<Routes>
+<Route>

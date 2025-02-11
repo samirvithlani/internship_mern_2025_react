@@ -12,6 +12,12 @@ import { ArrayDemo4 } from "./components/ArrayDemo4";
 import { UseStateDemo } from "./components/UseStateDemo";
 import { UseStateDemo2 } from "./components/UseStateDemo2";
 import { InputDemo1 } from "./components/InputDemo1";
+import { Navbar } from "./components/Navbar";
+import { Route, Routes } from "react-router-dom";
+import { HotstarHome } from "./components/hotstar/HotstarHome";
+import { HotstarMovies } from "./components/hotstar/HotstarMovies";
+import { HotstarWelcome } from "./components/hotstar/HotstarWelcome";
+import { Error404 } from "./components/hotstar/Error404";
 
 function App() {
   //js
@@ -20,16 +26,14 @@ function App() {
 
   return (
     <div>
-      {/* <UseStateDemo></UseStateDemo> */}
-      {/* <UseStateDemo2></UseStateDemo2> */}
-      <InputDemo1></InputDemo1>
-      {/* <Header></Header> */}
-      {/* <Content></Content> */}
-      {/* <ArrayDemo1></ArrayDemo1> */}
-      {/* <ArrayDemo2></ArrayDemo2> */}
-      {/* <ArrayDemo3></ArrayDemo3> */}
-      {/* <ArrayDemo4/> */}
-      {/* <Footer></Footer> */}
+      <Navbar></Navbar>
+      <Routes>
+        <Route path ="/" element = {<HotstarWelcome/>}></Route>
+        <Route path="/home" element= {<HotstarHome/>}></Route>
+        <Route path="/movies" element = {<HotstarMovies></HotstarMovies>}></Route>
+        {/* <Route path="/*" element = {<h1>NO PAGE</h1>}></Route> */}
+        <Route path="/*" element ={<Error404/>}></Route>
+      </Routes>
     </div>
   );
 }
