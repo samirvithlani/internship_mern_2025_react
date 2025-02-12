@@ -18,6 +18,7 @@ import { HotstarHome } from "./components/hotstar/HotstarHome";
 import { HotstarMovies } from "./components/hotstar/HotstarMovies";
 import { HotstarWelcome } from "./components/hotstar/HotstarWelcome";
 import { Error404 } from "./components/hotstar/Error404";
+import { Play } from "./components/hotstar/Play";
 
 function App() {
   //js
@@ -31,6 +32,7 @@ function App() {
         <Route path ="/" element = {<HotstarWelcome/>}></Route>
         <Route path="/home" element= {<HotstarHome/>}></Route>
         <Route path="/movies" element = {<HotstarMovies></HotstarMovies>}></Route>
+        <Route path="/play/:id" element = {<Play/>}></Route>
         {/* <Route path="/*" element = {<h1>NO PAGE</h1>}></Route> */}
         <Route path="/*" element ={<Error404/>}></Route>
       </Routes>
