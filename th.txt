@@ -89,3 +89,11 @@ Navbar.jsx -> boot...
                 message:"Age is required"
             }
 }
+
+
+task:
+regex
+
+project implmentation:
+
+html and css login signup 
