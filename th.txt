@@ -97,3 +97,35 @@ regex
 project implmentation:
 
 html and css login signup 
+
+skipped....
+props
+
+
+API:
+request method                  APIS : URLS
+                    frontend tech   <<--->>   backend tech:
+
+GET  :              to display data...        database -->
+POST :                                          create      
+DELETE:               to delete                   DELETE
+PUT   :                update                   update
+PATCH :                update                   update
+
+
+
+zom... map :API :
+
+weth... API
+
+soap API
+rest api:
+
+data type: json...
+
+
+
+GET API:
+fetch : lazy binding..
+axios : early binding..  npm i axios
+
