@@ -129,3 +129,20 @@ GET API:
 fetch : lazy binding..
 axios : early binding..  npm i axios
 
+
+
+OMDB : movie database:
+
+search patram : movie name : SearchMOvie
+api -->
+result:
+
+[] [] [] []
+[] [] [] [] []
+[] [] [] [] [] [] [] [] []
+[] [] []  
+
+
+detailcomponent/:id 
+
+api -->id...
