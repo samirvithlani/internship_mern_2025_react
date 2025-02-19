@@ -10,7 +10,7 @@ export const SearchMovie = () => {
     //query params.
     const res = await axios.get(
       //"http://www.omdbapi.com/?apikey=9d57be0b&s=avatar"
-      "http://www.omdbapi.com/?apikey=yourid0b&s=" + query
+      "http://www.omdbapi.com/?apikey=9d57be0b&s=" + query
     );
     console.log(res.data);
     console.log(res.data.Search);

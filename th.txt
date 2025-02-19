@@ -170,3 +170,13 @@ https://node5.onrender.com/user/user :GET,POST
 "email": "ram@gmail.com",
 "age": 23,
 "isActive": true,
+
+
+lifecycle hook:
+component: 
+
+useEffect: to handle side effect we can use useEffect
+
+CHAT application:
+
+x person -->message

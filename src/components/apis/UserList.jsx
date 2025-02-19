@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 export const UserList = () => {
 
@@ -9,11 +9,15 @@ export const UserList = () => {
         setusers(res.data.data)
     }
 
+    useEffect(()=>{
+        getUserList()
+    },[])
+    
 
   return (
     <div style={{textAlign:"center"}}>
         <h1>USER LIST</h1>
-        <button onClick={()=>{getUserList()}}>GET</button>
+        {/* <button onClick={()=>{getUserList()}}>GET</button> */}
         <table className='table table-dark'>
             <thead>
                 <tr>
