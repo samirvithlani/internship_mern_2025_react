@@ -146,3 +146,27 @@ result:
 detailcomponent/:id 
 
 api -->id...
+
+
+POST --> be -->
+
+fe ->form --> input -->
+
+: post:
+
+FE -->request -->
+
+request :object...
+
+BE -->
+
+req.body...
+req.params...
+req.headers
+req.formData
+
+https://node5.onrender.com/user/user :GET,POST
+"name": "ram",
+"email": "ram@gmail.com",
+"age": 23,
+"isActive": true,

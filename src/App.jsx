@@ -30,6 +30,10 @@ import { FormDemo7 } from "./components/forms/FormDemo7";
 import { ApiDemo1 } from "./components/apis/ApiDemo1";
 import { SearchMovie } from "./components/omdb/SearchMovie";
 import { MovieDetail } from "./components/omdb/MovieDetail";
+import { ApiDemo2 } from "./components/apis/ApiDemo2";
+import { UserList } from "./components/apis/UserList";
+import { PostDemo1 } from "./components/apis/PostDemo1";
+import { PostDemo2 } from "./components/apis/PostDemo2";
 
 function App() {
   //js
@@ -52,9 +56,12 @@ function App() {
         <Route path="/login" element = {<LoginForm/>}></Route>
         <Route path="/formdemo6" element ={<FormDemo6/>}></Route>
         <Route path="/formdemo7" element ={<FormDemo7/>}></Route>
-        <Route path="/apidemo1" element ={<ApiDemo1/>}></Route>
+        <Route path="/apidemo1" element ={<ApiDemo2/>}></Route>
         <Route path="/searchmovie" element ={<SearchMovie/>}></Route>
         <Route path="/moviedetail/:id" element ={<MovieDetail/>}></Route>
+        <Route path="/userList" element ={<UserList/>}></Route>
+        <Route path="/postdemo1" element ={<PostDemo1/>}></Route>
+        <Route path="/postdemo2" element ={<PostDemo2/>}></Route>
         {/* <Route path="/*" element = {<h1>NO PAGE</h1>}></Route> */}
         <Route path="/*" element ={<Error404/>}></Route>
       </Routes>
