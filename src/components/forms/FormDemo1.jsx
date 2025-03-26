@@ -1,5 +1,6 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
+import { CustomButton } from '../../propsdemo2/CustomButton'
 
 export const FormDemo1 = () => {
     const {register,handleSubmit} = useForm()
@@ -10,8 +11,14 @@ export const FormDemo1 = () => {
         console.log("data.....",data)
     }
 
+    const callFunction = ()=>{
+        alert('called...')
+    }
+
   return (
     <div style={{textAlign:"center"}}>
+        <button>CLICK</button>
+        <CustomButton name="from1" funName = {callFunction}></CustomButton>
         <h1>FORM DEMO 1</h1>
         <form onSubmit={handleSubmit(submitHandler)}>
             <div>

@@ -37,6 +37,7 @@ import { PostDemo2 } from "./components/apis/PostDemo2";
 import { UseEffectDemo } from "./components/UseEffectDemo";
 import { StudentComp } from "./propsdemo/StudentComp";
 import { CompoOne } from "./propsdemo/CompoOne";
+import { EmployeeComp } from "./propsdemo2/EmployeeComp";
 
 function App() {
   //js
@@ -68,6 +69,7 @@ function App() {
         <Route path ="/useeffectdemo" element ={<UseEffectDemo/>}></Route>
         <Route path="/studentcomp" element ={<StudentComp/>}></Route>
         <Route path="/comp1" element = {<CompoOne/>}></Route>
+        <Route path="/empcomp" element = {<EmployeeComp/>}></Route>
         {/* <Route path="/*" element = {<h1>NO PAGE</h1>}></Route> */}
         <Route path="/*" element ={<Error404/>}></Route>
       </Routes>

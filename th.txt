@@ -203,6 +203,27 @@ localservice:
 <Table> --> props
 
 
+communctaion between components:
+1 --> 2 component
+
+we have 3 ways:
+props:
+    properties:
+    parent component ---> child --> component--
+context
+redux
+------------------------------
+reusbale componet:
+200 buttons
+
+:15 20 tables:
+<Table rows ={} colims ==>>
+
+<card> -- >50 ->code 
+
+<Mycard props -->>
+
+
 
 
 

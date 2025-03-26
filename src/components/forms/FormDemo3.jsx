@@ -1,5 +1,6 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
+import { CustomButton } from '../../propsdemo2/CustomButton'
 
 export const FormDemo3 = () => {
     const {register,handleSubmit} = useForm()
@@ -9,6 +10,7 @@ export const FormDemo3 = () => {
     }
   return (
     <div style={{textAlign:"center"}}>
+        <CustomButton></CustomButton>
         <form onSubmit={handleSubmit(submitHandler)}>
             <div>
                 <label>name</label>
