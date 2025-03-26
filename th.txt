@@ -180,3 +180,30 @@ useEffect: to handle side effect we can use useEffect
 CHAT application:
 
 x person -->message
+
+
+communication bw components:
+
+props:
+    parent compo --> child --> props
+
+    ml : A -> B -->C -->D -->z
+
+        props drilling
+
+
+context:
+redux:
+
+
+figma:
+localservice:
+10 12
+
+<Table> --> props
+
+
+
+
+
+

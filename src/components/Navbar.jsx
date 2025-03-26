@@ -108,6 +108,16 @@ export const Navbar = () => {
                 searchmovie
               </Link>
             </li>
+            <li class="nav-item">
+            <Link class="nav-link" to="/studentcomp">
+                Student comp
+              </Link>
+            </li>
+            <li class="nav-item">
+            <Link class="nav-link" to="/comp1">
+                Comp1
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

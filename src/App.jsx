@@ -35,6 +35,8 @@ import { UserList } from "./components/apis/UserList";
 import { PostDemo1 } from "./components/apis/PostDemo1";
 import { PostDemo2 } from "./components/apis/PostDemo2";
 import { UseEffectDemo } from "./components/UseEffectDemo";
+import { StudentComp } from "./propsdemo/StudentComp";
+import { CompoOne } from "./propsdemo/CompoOne";
 
 function App() {
   //js
@@ -64,6 +66,8 @@ function App() {
         <Route path="/postdemo1" element ={<PostDemo1/>}></Route>
         <Route path="/postdemo2" element ={<PostDemo2/>}></Route>
         <Route path ="/useeffectdemo" element ={<UseEffectDemo/>}></Route>
+        <Route path="/studentcomp" element ={<StudentComp/>}></Route>
+        <Route path="/comp1" element = {<CompoOne/>}></Route>
         {/* <Route path="/*" element = {<h1>NO PAGE</h1>}></Route> */}
         <Route path="/*" element ={<Error404/>}></Route>
       </Routes>
