@@ -123,6 +123,11 @@ export const Navbar = () => {
                 emp Comp
               </Link>
             </li>
+            <li class="nav-item">
+            <Link class="nav-link" to="/chartdemo">
+                CAHRT DEMO
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
