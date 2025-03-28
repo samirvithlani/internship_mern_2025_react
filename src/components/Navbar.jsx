@@ -128,6 +128,11 @@ export const Navbar = () => {
                 CAHRT DEMO
               </Link>
             </li>
+            <li class="nav-item">
+            <Link class="nav-link" to="/myprod">
+                my prod
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

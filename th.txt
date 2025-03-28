@@ -224,6 +224,14 @@ reusbale componet:
 <Mycard props -->>
 
 
+main.jsx --> store load -> reducers --> actions --> load 
+action call...
+
+object --> cart --> 
+
+
+
+
 
 
 

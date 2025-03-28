@@ -39,6 +39,7 @@ import { StudentComp } from "./propsdemo/StudentComp";
 import { CompoOne } from "./propsdemo/CompoOne";
 import { EmployeeComp } from "./propsdemo2/EmployeeComp";
 import { ChartDemo1 } from "./charts/ChartDemo1";
+import { MyProducts } from "./components/MyProducts";
 
 function App() {
   //js
@@ -72,6 +73,7 @@ function App() {
         <Route path="/comp1" element = {<CompoOne/>}></Route>
         <Route path="/empcomp" element = {<EmployeeComp/>}></Route>
         <Route path="/chartdemo" element = {<ChartDemo1/>}></Route>
+        <Route path="/myprod" element = {<MyProducts/>}></Route>
         {/* <Route path="/*" element = {<h1>NO PAGE</h1>}></Route> */}
         <Route path="/*" element ={<Error404/>}></Route>
       </Routes>
