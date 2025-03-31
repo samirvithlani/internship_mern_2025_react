@@ -229,6 +229,13 @@ action call...
 
 object --> cart --> 
 
+main.jsx ---> store --> reducers --> actions --> object
+
+myprod --> 2 products --> addtocart(dispatch) --> addtocart action(state,action) -->
+state --> initial state , actoin --> type, payload
+
+
+
 
 
 

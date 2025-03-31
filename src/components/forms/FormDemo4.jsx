@@ -1,8 +1,10 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { useSelector } from "react-redux";
 
 export const FormDemo4 = () => {
   const { register, handleSubmit } = useForm();
+  const state =  useSelector((state)=>state)
 
   const submitHandler = (data) => {
     console.log(data)
@@ -10,6 +12,7 @@ export const FormDemo4 = () => {
 
   return (
     <div style={{ textAlign: "center" }}>
+      <h1>BALACNE  ={state.bank.balance}</h1>
       <h1>FOOD</h1>
       <form onSubmit={handleSubmit(submitHandler)}>
         <div>
