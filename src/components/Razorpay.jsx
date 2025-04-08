@@ -6,7 +6,7 @@ export const Razorpay = () => {
   const handleCreateOrder = async () => {
     try {
       const order = await axios.post(
-        "http://localhost:3000/payment/create_order",
+        "http://localhost:8000/payment/create_order",
         {
           amount: 500,
           currency: "INR",
@@ -42,7 +42,7 @@ export const Razorpay = () => {
     }
 
     const options = {
-      key: "rzp_test_d32mzcypTwltG7",
+      key: "rzp_test_gCNjkl3yd0SQak",
       amount: orderData.amount,
       currency: orderData.currency,
       name: "Test Corp",
@@ -50,7 +50,7 @@ export const Razorpay = () => {
       order_id: orderData.id,
       handler: async function (response) {
         const res = await axios.post(
-          "http://localhost:3000/payment/verify_order",
+          "http://localhost:8000/payment/verify_order",
           {
             razorpay_order_id: response.razorpay_order_id,
             razorpay_payment_id: response.razorpay_payment_id,
@@ -59,6 +59,12 @@ export const Razorpay = () => {
         );
 
         if (res.data.status === "success") {
+          //database order table:
+          //orderId,
+          //rporderid
+          //paymentid
+          //amount
+          //statusc: sucess
           alert("Payment verified successfully!");
         } else {
           alert("Payment verification failed.");
